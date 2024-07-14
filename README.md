@@ -13,6 +13,9 @@
         h1, h2, h3 {
             margin-top: 30px;
         }
+        a {
+            color: blue;
+        }
         pre {
             background-color: #f4f4f4;
             padding: 10px;
@@ -37,12 +40,13 @@
     <h3>Folder Structure</h3>
     <pre>
 ecommerce_image_generation/
+|
 ├── product_image_augmentation/
-│   ├── dataset/
-│   ├── output/
-│   ├── models.py
-│   ├── train.py
-│   ├── requirements.txt
+|   ├── dataset/
+|   ├── output/
+|   ├── models.py
+|   ├── train.py
+|   └── requirements.txt
     </pre>
 
     <h3>Setup and Installation</h3>
@@ -64,14 +68,15 @@ source venv/bin/activate  # On Windows use `venv\Scripts\activate`</code></pre>
     <h3>Folder Structure</h3>
     <pre>
 ecommerce_image_generation/
+|
 ├── virtual_tryon/
-│   ├── static/
-│   │   ├── css/
-│   │   │   ├── style.css
-│   ├── templates/
-│   │   ├── index.html
-│   ├── app.py
-│   ├── requirements.txt
+|   ├── static/
+|   |   ├── css/
+|   |   |   ├── style.css
+|   ├── templates/
+|   |   ├── index.html
+|   ├── app.py
+|   └── requirements.txt
     </pre>
 
     <h3>Setup and Installation</h3>
