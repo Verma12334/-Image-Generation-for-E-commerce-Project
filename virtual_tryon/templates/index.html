@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Virtual Try-On</title>
+</head>
+<body>
+    <h1>Upload Images for Virtual Try-On</h1>
+    <form action="/tryon" method="post" enctype="multipart/form-data">
+        <label for="model_image">Model Image:</label>
+        <input type="file" id="model_image" name="model_image" accept="image/*" required><br><br>
+        <label for="apparel_image">Apparel Image:</label>
+        <input type="file" id="apparel_image" name="apparel_image" accept="image/*" required><br><br>
+        <input type="submit" value="Try On">
+    </form>
+</body>
+</html>
