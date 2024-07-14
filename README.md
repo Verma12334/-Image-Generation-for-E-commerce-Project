@@ -15,6 +15,7 @@
         }
         a {
             color: blue;
+            text-decoration: underline;
         }
         pre {
             background-color: #f4f4f4;
